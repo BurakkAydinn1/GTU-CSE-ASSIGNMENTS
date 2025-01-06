@@ -1,0 +1,8 @@
+module mips(
+	input clock
+);
+
+
+
+
+endmodule 

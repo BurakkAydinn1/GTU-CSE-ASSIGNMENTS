@@ -1,0 +1,18 @@
+module control_unit ( 
+output reg regDst, 
+output reg branch, 
+output memRead,  
+output memWrite, 
+output [2:0] ALUop, 
+//(This is an optional signal for lb and sb operations) 
+//(This can also be used as memToReg) 
+//(This was assigned as [1:0] before, by mistake. It should be [2:0]) 
+output ALUsrc, 
+output regWrite 
+output jump, 
+output byteOperations,  (This is an optional signal for lb and sb operations) 
+output move,    
+input [5:0] opcode
+
+
+);

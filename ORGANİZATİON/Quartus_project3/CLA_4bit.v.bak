@@ -1,0 +1,9 @@
+module CLA_4bit(
+	
+	input [3:0] in_1,
+	input [3:0] in_2,
+	input carry_in,
+	output [3:0] result,
+	output carry_out,
+
+);

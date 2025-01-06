@@ -1,0 +1,15 @@
+module ALU_1bit(
+	
+	input ainvert,
+	input binvert,
+	input [1:0]Operation,
+	input less_xor
+);
+
+
+
+
+
+
+
+endmodule 

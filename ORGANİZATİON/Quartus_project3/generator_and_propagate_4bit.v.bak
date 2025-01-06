@@ -1,0 +1,13 @@
+module generator_and_propagate_4bit(
+input in_0[3:0],
+input in_1[]
+);
+
+
+
+
+
+
+
+
+endmodule 
